@@ -1,0 +1,23 @@
+.unordered{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.link_button {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.4rem;
+    width: 15rem;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.link_button:hover {
+    background-color: hsl(75, 94%, 57%) ;
+    color: black;
+    cursor: pointer;
+}
