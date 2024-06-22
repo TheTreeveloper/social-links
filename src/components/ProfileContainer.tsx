@@ -4,7 +4,7 @@ function ProfileContainer() {
   return (
     <div className={styles.card_container}>
       <img
-        src="avatar-jessica.jpeg"
+        src="./avatar-jessica.jpeg"
         className={styles.profile_image}
       />
       <h1>Jessica Randall</h1>
